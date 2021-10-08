@@ -1,0 +1,56 @@
+.editContactPage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.editContactPage form {
+    width: 600px;
+    height: 300px;
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.6);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.editContactPage form input {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.editContactPage .goBackBtn {
+    background-color:darkslategrey;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.editContactPage form .error {
+    color: rgb(114, 17, 17);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.editContactPage form .btnBox {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.btnBox button {
+    height: 30px;
+    color: #fff;
+    border: none;
+}
+.btnBox .updateContactBtn {
+    width: 150px;
+    background-color:rgb(96, 133, 245);
+}
+.btnBox .cancelContactBtn {
+    width: 100px;
+    background-color: rgb(175, 12, 12);
+}

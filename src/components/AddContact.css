@@ -1,0 +1,40 @@
+.addContactPage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.addContactPage h1 {
+    font-size: 50px;
+}
+.addContactPage form {
+    width: 600px;
+    height: 300px;
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.6);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addContactPage form .error {
+    color: rgb(114, 17, 17);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.addContactPage form input {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.addContactPage form button {
+    width: 400px;
+    height: 30px;
+    background-color: darkslategrey;
+    color: #fff;
+    font-size: 18px;
+}

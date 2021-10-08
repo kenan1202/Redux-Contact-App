@@ -1,0 +1,83 @@
+.homeScreen {
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+}
+.homeScreen .addContactLink {
+    text-decoration: none;
+    margin-left: 700px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid grey;
+    padding: 10px;
+    color: darkslategrey;
+    /* margin-top: 40px; */
+}
+.contactScreen {
+    margin-top: 50px;
+    width: 820px;
+    height: 250px;
+    overflow-y: auto;
+}
+.contactScreenTitle {
+    padding-right: 100px;
+    background-color: darkslategrey;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactScreenTitle p {
+    width: 150px;
+}
+
+
+/* .contactList div:nth-child(1) {
+    padding-right: 100px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactList div:nth-child(1) p {
+    width: 150px;
+}
+.editBox {
+    margin-top: -40px;
+    margin-left: 650px;
+}
+.editBox {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.editLink { 
+    width: 70px;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgb(111, 111, 255);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteBtn {
+    cursor: pointer;
+    background-color: rgb(212, 30, 30);
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
